@@ -3,13 +3,13 @@
 }
 
 body {
-    background-color: white;
-    color: black;
+    background-color: white !important;
+    color: black !important;
 }
 
 body.dark-mode {
-    background-color: #2B2B2B;
-    color: white;
+    background-color: #2B2B2B !important;
+    color: white !important;
 }
 
 header {
