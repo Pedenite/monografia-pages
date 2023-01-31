@@ -80,7 +80,7 @@ CA04:
 # Realização de desafio
 
 **Como** estudante, 
-**eu quero** ser capaz realizar os desafios existentes,
+**eu quero** ser capaz de realizar os desafios existentes,
 **para** aprender e aumentar a minha colocação no ranking.
 
 ### Critérios de Aceitação (CAs)
