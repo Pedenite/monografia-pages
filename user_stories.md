@@ -1,4 +1,6 @@
-# Login
+# Front Office
+
+## Login
 
 **Como** usuário, 
 **eu quero** ser capaz de fazer login com as minhas credenciais no sistema,
@@ -14,7 +16,7 @@ CA02:
 1. Usuário digita as credenciais incorretas e pressiona o botão de login;
 1. Acesso negado e mensagem de erro explicativa é mostrada na tela.
 
-# Registro
+## Registro
 
 **Como** usuário, 
 **eu quero** ser capaz de me registrar no sistema caso não tenha acesso,
@@ -30,7 +32,7 @@ CA02:
 1. Usuário deixa de preencher campos obrigatórios ou preenche campo incorretamente;
 1. Credenciais não são criadas e mensagem de erro explicativa é exibida na tela.
 
-# Chat
+## Chat
 
 **Como** estudante, 
 **eu quero** ser capaz de me comunicar com outros alunos,
@@ -44,7 +46,7 @@ CA01:
 1. Usuário seleciona um segundo usuário para a troca de mensagens;
 1. Ao enviar uma mensagem pela caixa de texto na parte inferior da tela, a mensagem aparecerá no corpo da conversa em um balão de texto.
 
-# Gerenciamento de conta
+## Gerenciamento de conta
 
 **Como** estudante, 
 **eu quero** ser capaz de visualizar e editar minha senha e meus dados pessoais salvos no aplicativo e ser capaz de fazer o logout,
@@ -77,7 +79,7 @@ CA04:
     * nova senha é igual à antiga.
 1. Mensagem de erro é exibida na tela para o usuário e a senha não é alterada;
 
-# Realização de desafio
+## Realização de desafio
 
 **Como** estudante, 
 **eu quero** ser capaz de realizar os desafios existentes,
@@ -96,3 +98,37 @@ CA01:
 1. Será exibida a quantidade de questões acertadas, com erro e não respondidas, assim como a quantidade de pontos obtida em cada desafio respondido;
 1. Usuário será capaz de revisar as respostas ou retornar aos subtópicos por meio de botões presentes na extremidade inferior da tela.
 1. Ao visualizar o ranking novamente, a sua pontuação terá sido alterada com base nos pontos ganhos mostrados no feedback, tendo a possibilidade de subir de posição.
+
+# Back Office
+
+## Login
+
+**Como** usuário, 
+**eu quero** ser capaz de fazer login com as minhas credenciais no sistema,
+**para** acessar as funcionalidades da plataforma.
+
+### Critérios de Aceitação (CAs)
+
+CA01:
+1. Usuário digita as suas credenciais corretamente e pressiona no botão de login;
+1. Usuário acessa a ferramenta normalmente com a sua conta.
+
+CA02:
+1. Usuário digita as credenciais incorretas e pressiona o botão de login;
+1. Acesso negado e mensagem de erro explicativa é mostrada na tela.
+
+## Registro
+
+**Como** usuário, 
+**eu quero** ser capaz de me registrar no sistema caso não tenha acesso,
+**para** ser capaz de acessar as funcionalidades da plataforma.
+
+### Critérios de Aceitação (CAs)
+
+CA01:
+1. Usuário preenche todos os dados corretamente na tela de registro;
+1. Usuário tem suas credenciais criadas e pode realizar o login com elas.
+
+CA02:
+1. Usuário deixa de preencher campos obrigatórios ou preenche campo incorretamente;
+1. Credenciais não são criadas e mensagem de erro explicativa é exibida na tela.
