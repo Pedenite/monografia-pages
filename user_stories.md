@@ -81,7 +81,7 @@ CA04:
 
 **Como** estudante, 
 **eu quero** ser capaz de realizar os desafios existentes,
-**para** aprender e aumentar a minha colocação no ranking.
+**para** consolidar os meus conhecimentos e aumentar a minha colocação no ranking.
 
 ### Critérios de Aceitação (CAs)
 
@@ -91,7 +91,8 @@ CA01:
 1. Usuário visualiza os subtópicos pertencentes ao tópico pai com seu progresso de conclusão dos desafios presentes a cada um;
 1. Usuário acessa os desafios de um subtópico;
 1. Usuário é levado para o primeiro desafio do tópico, onde terá acesso às funções de avançar para o próximo desafio ou voltar para o anterior;
-1. Se o desafio ainda não estiver respondido, o usuário será capz de responder, senão, o botão de responder será desabilitado e o usuário apenas poderá visualizar a sua resposta e qual é a resposta correta;
+1. Se o desafio ainda não estiver respondido, o usuário será capaz de responder, senão, o botão de responder será desabilitado e o usuário apenas poderá visualizar a sua resposta e qual é a resposta correta;
 1. Ao pular ou responder o último desafio, o usuário será redirecionado para a tela de feedback;
 1. Será exibida a quantidade de questões acertadas, com erro e não respondidas, assim como a quantidade de pontos obtida em cada desafio respondido;
 1. Usuário será capaz de revisar as respostas ou retornar aos subtópicos por meio de botões presentes na extremidade inferior da tela.
+1. Ao visualizar o ranking novamente, a sua pontuação terá sido alterada com base nos pontos ganhos mostrados no feedback, tendo a possibilidade de subir de posição.
