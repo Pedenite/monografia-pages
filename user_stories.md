@@ -1,3 +1,4 @@
+
 # Front Office
 
 ## Login
@@ -132,3 +133,88 @@ CA01:
 CA02:
 1. Usuário deixa de preencher campos obrigatórios ou preenche campo incorretamente;
 1. Credenciais não são criadas e mensagem de erro explicativa é exibida na tela.
+
+## Gerenciar Times
+
+**Como** usuário, 
+**eu quero** ser capaz de cadastrar times na plataforma,
+**para** organizar e monitorar melhor as minhas turmas de alunos.
+
+### Critérios de Aceitação (CAs)
+
+CA01:
+1. Usuário preenche todos os dados corretamente na tela de cadastro de times;
+1. Usuário define a descrição do time que será exibida no aplicativo;
+1. Usuário cadastra o time e, consequentemente, poderá gerenciá-lo.
+
+CA02:
+1. Usuário deixa de preencher os campos obrigatórios ou preenche incorretamente;
+1. Time não é cadastrado e mensagem de erro explicativa é exibida na tela.
+
+## Gerenciar Participantes
+
+**Como** usuário, 
+**eu quero** ser capaz de cadastrar e desativar participantes nos meus times da plataforma,
+**para** que eu possa ser capaz de gerenciar melhor as minhas equipes e alunos.
+
+CA01:
+1. Usuário preenche o *e-mail* corretamente na tela de cadastro de participantes;
+1. Usuário cadastra o participante e, consequentemente, poderá gerenciá-lo e monitorá-lo;
+1. Usuário desativa o participante, quando necessário.
+
+CA02:
+1. Usuário deixa de preencher o *e-mail* do participante, preenche um *e-mail* inválido ou o participante não está cadastrado na plataforma;
+1. Participante não é inserido no time e mensagem de erro explicativa é exibida na tela.
+
+## Gerenciar Tópicos
+
+**Como** usuário, 
+**eu quero** ser capaz de cadastrar tópicos na plataforma,
+**para** organizar melhor os conteúdos que serão ministrados em cada time.
+
+### Critérios de Aceitação (CAs)
+
+CA01:
+1. Usuário preenche todos os dados corretamente na tela de cadastro de tópicos;
+1. O usuário define o ícone do tópico que será exibido na tela do aplicativo;
+1. Usuário cadastra o tópico e, consequentemente, poderá gerenciá-lo.
+
+CA02:
+1. Usuário deixa de preencher campos obrigatórios ou preenche incorretamente;
+1. Tópico não é cadastrado e uma mensagem de erro explicativa é exibida na tela.
+
+## Gerenciar Subtópicos
+
+**Como** usuário, 
+**eu quero** ser capaz de cadastrar subtópicos na plataforma,
+**para** organizar melhor os conteúdos que serão ministrados em cada tópico.
+
+### Critérios de Aceitação (CAs)
+
+CA01:
+1. Usuário preenche todos os dados corretamente na tela de cadastro de subtópicos;
+1. O usuário define a descrição do subtópico que será exibido na tela do aplicativo;
+1. Usuário cadastra o subtópico e, consequentemente, poderá gerenciá-lo.
+
+CA02:
+1. Usuário deixa de preencher os campos obrigatórios ou preenche incorretamente;
+1. Subtópico não é cadastrado e uma mensagem de erro explicativa é exibida na tela.
+
+## Gerenciar Desafios
+
+**Como** usuário, 
+**eu quero** ser capaz de gerenciar os desafios em cada um dos meus times,
+**para** para criar e gerenciar questões passadas aos alunos.
+
+### Critérios de Aceitação (CAs)
+
+CA01:
+1. Usuário preenche todos os dados corretamente na tela de cadastro de desafios;
+1. Usuário adiciona descrição ao desafio;
+1. Usuário define o modelo de resposta;
+1. Usuário insere o feedback que será exibido aos alunos ao realizarem a questão;
+1. Usuário cadastra o desafio e, consequentemente, poderá gerenciá-lo.
+
+CA02:
+1. Usuário deixa de preencher campos obrigatórios ou preenche o(s) campo(s) incorretamente;
+1. Desafio não é criado e uma mensagem de erro explicativa é exibida na tela.
